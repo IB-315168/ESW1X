@@ -4,7 +4,7 @@ int main() {
     char name[] = "";
 
     printf("What's your name?\n");
-    scanf("%s", name);
+    scanf("%20s", name);
     printf("Hello, %s\n", name);
     return 0;
 }
