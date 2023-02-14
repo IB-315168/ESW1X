@@ -10,6 +10,7 @@ Some of the solutions may have additional, unnecessary functionality that is not
 Repository currently has solutions for:
 
 - Session 1 (100%)
+- Session 2 (67%)
 
 
 ## Badges
