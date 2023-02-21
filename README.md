@@ -11,6 +11,7 @@ Repository currently has solutions for:
 
 - Session 1 (100%)
 - Session 2 (67%)
+- Session 3 (60%)
 
 
 ## Badges
