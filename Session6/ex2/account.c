@@ -8,7 +8,7 @@ typedef struct account{
     double balance;
 } account;
 
-account_t account_create(int accountNo, double creditLimit, double balance) {
+account_t account_create(int accountNo, double creditLimit) {
     account_t _newAccount = calloc(1, sizeof(account));
 
     if(NULL == _newAccount) {
@@ -17,7 +17,7 @@ account_t account_create(int accountNo, double creditLimit, double balance) {
 
     _newAccount->accountNo = accountNo;
     _newAccount->creditLimit = creditLimit;
-    _newAccount->balance = balance;
+    _newAccount->balance = 0;
 
     return _newAccount;
 }
@@ -28,3 +28,6 @@ void account_destroy(account_t self) {
     }
 }
 
+account_accountStatus_t account_withdraw(account_t self, double amount) {
+    
+}
