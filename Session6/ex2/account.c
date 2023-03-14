@@ -29,5 +29,21 @@ void account_destroy(account_t self) {
 }
 
 account_accountStatus_t account_withdraw(account_t self, double amount) {
-    
+    self->balance = self->balance - amount;
+}
+
+account_accountStatus_t account_deposit(account_t self, double amount) {
+    self->balance = self->balance + amount;
+}
+
+double account_getBalance(account_t self) {
+    return self->balance
+}
+
+double account_getCreditLimit(account_t self) {
+    return self->creditLimit
+}
+
+int account_getAccountNo(account_t self) {
+    return self->accountNo;
 }
