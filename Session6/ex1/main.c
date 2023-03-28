@@ -9,9 +9,9 @@ int main() {
 
     printf("Type in properties of the rectangle\n");
     printf("Type in width:\n");
-    scanf("%d", &width);
+    scanf_s("%d", &width);
     printf("Type in height:\n");
-    scanf("%d", &height);
+    scanf_s("%d", &height);
 
     rectangle_t rectangle = rectangle_create(width, height);
 
