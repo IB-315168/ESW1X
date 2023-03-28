@@ -1,0 +1,3 @@
+C:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82/build/CMakeFiles/MyProject.dir
+C:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\IGOR\DOCUMENTS\SEM4\ESW1X\SESSION8\EX82\BUILD\CMAKEFILES\35EBEB0A5C985A416A18CC940364BA53\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82 -BC:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82/build/notmain.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

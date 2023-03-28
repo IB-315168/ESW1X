@@ -1,0 +1,10 @@
+^C:\USERS\IGOR\DOCUMENTS\SEM4\ESW1X\SESSION8\EX82\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82 -BC:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82/build --check-stamp-file C:/Users/iGor/Documents/Sem4/ESW1X/Session8/Ex82/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
