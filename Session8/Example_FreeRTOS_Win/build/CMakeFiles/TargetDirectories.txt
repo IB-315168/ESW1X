@@ -1,3 +1,0 @@
-C:/Users/iGor/Documents/SEM4/ESW1X/Session8/Example_FreeRTOS_Win/build/CMakeFiles/MyProject.dir
-C:/Users/iGor/Documents/SEM4/ESW1X/Session8/Example_FreeRTOS_Win/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/iGor/Documents/SEM4/ESW1X/Session8/Example_FreeRTOS_Win/build/CMakeFiles/ZERO_CHECK.dir
